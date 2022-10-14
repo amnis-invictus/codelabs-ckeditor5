@@ -64,6 +64,15 @@ module.exports = {
 				use: [ 'raw-loader' ]
 			},
 			{
+				test: /\.js$/,
+				use: {
+					loader: 'babel-loader',
+					options: {
+					  presets: ['@babel/preset-env']
+					}
+				  }
+			},
+			{
 				test: /\.css$/,
 				use: [
 					{

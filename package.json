@@ -35,5 +35,9 @@
   },
   "scripts": {
     "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^8.2.5"
   }
 }
