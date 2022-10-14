@@ -91,7 +91,7 @@ Editor.defaultConfig = {
 			'redo'
 		]
 	},
-	language: 'en-gb',
+	language: 'en',
 	image: {
 		toolbar: [
 			'imageTextAlternative',
